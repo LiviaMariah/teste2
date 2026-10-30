@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    background-image: url(img/Fundo.jpg);
+    background-size: cover;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+.quadrado{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+.box{
+    margin-inline: 45px;
+}
+
+div{
+    text-align: center;
+}
+hr{
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+.texto{
+    background-color:rgb(243, 243, 243);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+}
+h1{
+    margin-top: 50px;
+}
+.entrar{
+    background-color: rgb(41, 89, 156);
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 18px;
+    padding-inline: 50px;
+    color: aliceblue;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: rgb(0, 128, 255);
+}
